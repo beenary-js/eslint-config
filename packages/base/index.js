@@ -2,6 +2,14 @@ module.exports = {
   extends: ["airbnb"],
   rules: {
     "consistent-return": "off",
+    "no-unused-vars": [
+      "error",
+      {
+        argsIgnorePattern: "^_",
+        varsIgnorePattern: "^_",
+        caughtErrorsIgnorePattern: "^_",
+      },
+    ],
     "max-classes-per-file": "off",
     "import/order": "off",
     "import/prefer-default-export": "off",
