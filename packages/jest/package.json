@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-beenary-jest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Beenary config for Eslint with Jest",
   "homepage": "https://github.com/beenary-js/eslint-config",
   "repository": "beenary-js/eslint-config",
