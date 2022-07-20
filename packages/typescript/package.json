@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-beenary-typescript",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "description": "Beenary config for Eslint with TypeScript",
   "homepage": "https://github.com/beenary-js/eslint-config",
   "repository": "beenary-js/eslint-config",
