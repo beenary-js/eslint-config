@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/base",
+    "packages/typescript",
+    "packages/jest"
+  ],
+  "scripts": {
+    "format": "prettier --loglevel warn --write \"**/*.{js,jsx,ts,tsx,css,less,scss,sass,html,json,md,mdx,yml,yaml,graphql,graphqls}\"",
+    "posttest": "npm run format",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": ">=7",
+    "install-peers": "^1.0.4",
+    "lint-staged": ">=10",
+    "prettier": ">=2"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css,less,scss,sass,html,json,md,mdx,yml,yaml,graphql,graphqls}": "prettier --write"
+  }
+}

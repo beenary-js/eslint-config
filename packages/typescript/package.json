@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-beenary-typescript",
+  "version": "1.0.0-alpha",
+  "description": "Beenary config for Eslint with TypeScript",
+  "homepage": "https://github.com/beenary-js/eslint-config",
+  "repository": "beenary-js/eslint-config",
+  "author": {
+    "name": "Beata Obrok",
+    "url": "https://github.com/quirk0o"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "beenary",
+    "typescript"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-beenary": "^1.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8",
+    "typescript": ">= 4"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "typescript": "^4.7.4"
+  }
+}
