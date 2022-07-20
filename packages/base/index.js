@@ -14,22 +14,22 @@ module.exports = {
     "import/order": [
       "error",
       {
-        "groups": [
+        groups: [
           "type",
           "builtin",
           "external",
           "internal",
           ["sibling", "parent"],
           "index",
-          "unknown"
+          "unknown",
         ],
         "newlines-between": "always",
-        "warnOnUnassignedImports": true,
-        "alphabetize": {
-          "order": "asc",
-          "caseInsensitive": true
-        }
-      }
+        warnOnUnassignedImports: true,
+        alphabetize: {
+          order: "asc",
+          caseInsensitive: true,
+        },
+      },
     ],
     "import/prefer-default-export": "off",
     "import/no-default-export": "error",
