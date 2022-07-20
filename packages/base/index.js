@@ -11,7 +11,26 @@ module.exports = {
       },
     ],
     "max-classes-per-file": "off",
-    "import/order": "off",
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "type",
+          "builtin",
+          "external",
+          "internal",
+          ["sibling", "parent"],
+          "index",
+          "unknown"
+        ],
+        "newlines-between": "always",
+        "warnOnUnassignedImports": true,
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
     "import/prefer-default-export": "off",
     "import/no-default-export": "error",
     "import/extensions": [
