@@ -5,6 +5,7 @@ module.exports = {
     "jest/globals": true,
   },
   rules: {
+    "react/function-component-definition": "off",
     "jest/no-disabled-tests": "error",
     "jest/no-focused-tests": "error",
     "jest/no-commented-out-tests": "error",
