@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-beenary-typescript",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Beenary config for Eslint with TypeScript",
   "homepage": "https://github.com/beenary-js/eslint-config",
   "repository": "beenary-js/eslint-config",
@@ -26,7 +26,7 @@
   "dependencies": {
     "@typescript-eslint/parser": "^5.30.7",
     "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-beenary": "^1.0.0"
+    "eslint-config-beenary": "^2.0.0"
   },
   "peerDependencies": {
     "eslint": ">= 8",
