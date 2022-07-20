@@ -44,6 +44,12 @@ module.exports = {
       },
     ],
     "react/jsx-props-no-spreading": "off",
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        extensions: [".jsx"],
+      },
+    ],
     "react/function-component-definition": [
       "error",
       {
