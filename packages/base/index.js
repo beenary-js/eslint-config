@@ -12,7 +12,7 @@ module.exports = {
     ],
     "max-classes-per-file": "off",
     "import/order": [
-      "error",
+      "warn",
       {
         groups: [
           "type",
@@ -24,7 +24,6 @@ module.exports = {
           "unknown",
         ],
         "newlines-between": "always",
-        warnOnUnassignedImports: true,
         alphabetize: {
           order: "asc",
           caseInsensitive: true,

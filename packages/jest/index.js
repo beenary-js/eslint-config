@@ -1,10 +1,11 @@
 module.exports = {
-  extends: ["plugin:jest/recommended"],
-  plugins: ["jest"],
+  extends: ["plugin:jest/recommended", "plugin:testing-library/react"],
+  plugins: ["jest", "testing-library"],
   env: {
     "jest/globals": true,
   },
   rules: {
+    "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
     "react/function-component-definition": "off",
     "jest/no-disabled-tests": "error",
     "jest/no-focused-tests": "error",
