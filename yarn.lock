@@ -414,7 +414,9 @@ eslint-config-airbnb@^19.0.4:
     object.entries "^1.1.5"
 
 eslint-config-beenary@^1.0.0:
-  version "1.0.0-alpha"
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-beenary/-/eslint-config-beenary-1.0.0.tgz#6d55f4cc70bc14e3f652e0435e09d3f999c042de"
+  integrity sha512-96Vxzf3wvlMAxxBoiI7W4P5VUA8mcJv4xv0mO2ormRcy/dCmvygHKejV3/JzEhWrG4sgB9PIRvRZPRkBiG0LfA==
   dependencies:
     eslint-config-airbnb "^19.0.4"
 
