@@ -1,13 +1,7 @@
 module.exports = {
-  extends: ["airbnb-typescript"],
+  extends: ["airbnb-typescript/base"],
   rules: {
     "no-unused-vars": "off",
-    "react/jsx-filename-extension": [
-      "error",
-      {
-        extensions: [".tsx"],
-      },
-    ],
     "@typescript-eslint/no-unused-vars": [
       "warn",
       {
